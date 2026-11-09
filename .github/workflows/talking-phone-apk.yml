@@ -5,6 +5,8 @@ on:
     paths:
       - 'Talking-Phone/**'
       - '.github/workflows/talking-phone-apk.yml'
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
